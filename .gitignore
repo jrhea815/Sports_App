@@ -1,5 +1,15 @@
 .streamlit/secrets.toml
 
+# .streamlit/secrets.toml
+
+[connections.mysql]
+dialect = "mysql"
+host = "localhost"
+port = 3306
+database = "nfl_db"
+username = "root"
+password = "8008"
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
