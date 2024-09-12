@@ -1,5 +1,5 @@
 streamlit
 pymysql
-mysqlclient==2.1.1  # or the latest version
+mysql-connector-python==8.0.34  # or the latest version
 SQLAlchemy==2.0.16  # or the latest version
 streamlit>=1.28
