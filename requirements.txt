@@ -1,4 +1,4 @@
-mysql-connector-python==8.0  # Use a valid version available
-SQLAlchemy==2.0.16  # or the latest version
-streamlit>=1.28
+mysql-connector-python
+mysqlx-connector-python
+streamlit
 
