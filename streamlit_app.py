@@ -2,7 +2,7 @@ import streamlit as st
 import pymysql
 
 def create_connection(db_name):
-    return mysql.connector.connect(
+    return pymysql.connect(
         host="localhost",
         user="root",
         password="8008",
