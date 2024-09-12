@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 
 # Initialize connection.
-conn = st.connection('mysql')
+conn = st.connection('mysql', type='sql')
 
 def fetch_teams():
     query = "SELECT * FROM Teams;"
